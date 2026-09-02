@@ -116,3 +116,31 @@ transition: 0.4s ease-in-out !important;
 .b2:hover{
     background-color: rgb(207, 207, 207);
 }
+.About{
+    margin-left: 80px;
+    display: flex;
+}
+.About h1{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.About button{
+     background-color: rgb(77, 37, 255);
+    border-radius: 8px;
+    color: white ;
+    border: none;
+    margin-left: 20px;
+    padding: 10px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 13px;
+transition: 0.4s ease-in-out !important;
+}
+.STATISTICS div{
+    text-align: center;
+    margin-left: 120px;
+    display: flex;
+}
+.STATISTICS h2{
+    margin-top: 80px;
+}
