@@ -18,8 +18,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 header h1{
         padding-top: 13px;
     font-size: 25px;
-    color: rgb(77, 37, 255);
-    margin-right: 200px;
+    color: rgb(62, 37, 255);
+    margin-right: 300px;
 }
 header a{
     font-size: 23px;
@@ -28,8 +28,8 @@ header a{
    color: white;
 }
 header button{
- margin-left: 200px;
- background-color: rgb(77, 37, 255);
+ margin-left: 340px;
+  background-color: rgb(0, 35, 150);
     border-radius: 8px;
     color: white ;
     border: none;
@@ -41,15 +41,16 @@ font-size: 18px;
 transition: 0.4s ease-in-out !important;
 }
 header button:hover{
-    background-color: rgb(28, 11, 104);
+    background-color: rgb(40, 15, 150);
 }
 .hero{
     display: flex;
 justify-content: center;
 margin-bottom: 80px;
-gap: 150px;
+gap: 5px;
 }
 .hero h1{
+    margin-right: 220px;
     font-size: 100px;
     margin-bottom: 10px;
 }
@@ -59,7 +60,7 @@ gap: 150px;
 }
 .hero img{
     margin-top: 90px;
-  width: 600px;
+  width: 950px;
   height: 400px;
  border-radius: 10px;
 }
@@ -87,7 +88,7 @@ span{
     margin-left: 20px;
 }
 .b1{
- background-color: rgb(77, 37, 255);
+ background-color:  rgb(0, 26, 49);
     border-radius: 8px;
     color: white ;
     border: none;
@@ -99,7 +100,7 @@ font-size: 18px;
 transition: 0.4s ease-in-out !important;
 }
 .b1:hover{
-    background-color:  rgb(28, 11, 104);
+    background-color:  rgb(33, 4, 162);
 }
 .b2{
     background-color: rgb(254, 254, 255);
@@ -120,8 +121,10 @@ transition: 0.4s ease-in-out !important;
     margin-top: 80px;
     display: flex ;
     gap: 70px;
+    background-color: rgb(0, 26, 49);
+    padding: 10px 0 50px;
+    color: white;
     justify-content: center;
-    margin-bottom: 50px;
 }
 .About h1{
     margin-left: 20px;
@@ -130,8 +133,10 @@ transition: 0.4s ease-in-out !important;
     margin-top: 40px;
     border: 1px solid rgb(194, 194, 194);
     width: 4cm;
+    color: black;
     height: 4.5cm;
     padding: 10px;
+    background-color: white;
     border-radius: 8px;
 }
 .About button{
@@ -146,6 +151,9 @@ font-weight: bold;
 font-size: 13px;
 transition: 0.4s ease-in-out !important;
 }
+.About button:hover{
+   background-color: rgb(1, 32, 136);
+}
 footer{
     background-color: black;
     color: white;
@@ -153,21 +161,58 @@ footer{
     padding: 10px;
 }
 .valorant img{
-    width: 250px;
+    width: 280px;
+    background-color: white;
     border-radius: 10px;
-    height: 250px;
+    height: 270px;
 }
 .our{
     text-align: center;
     justify-content:    center ;
+     background-color: rgb(0, 26, 49);
+     padding: 7px;
+     color: white;
 }
 .valorant{
     display: flex;
+    padding: 20px;
+    border-radius: 10px;
     flex-wrap: wrap;
     gap: 70px;
     margin: 50px 200px 50px 200px;
     text-align: center;
     justify-content:center ;
+}
+.valorant div{
+    background-color: white;
+}
+.div2 button{
+    border-radius: 8px;
+    border: none;
+    padding: 10px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+color: white;
+font-size: 13px;
+transition: 0.4s ease-in-out !important;
+}
+.Upcoming{
+    background-color: rgb(77, 37, 255);
+}
+.Upcoming:hover{
+    background-color: rgb(25, 0, 136);
+}
+.Live{
+    background-color: rgb(0, 184, 0); 
+}
+.Live:hover{
+    background-color: rgb(0, 126, 0);
+}
+.Finished{
+    background-color: rgb(107, 107, 107);
+}
+.Finished:hover{
+    background-color: rgb(86, 85, 85);
 }
 .valorant div{
     box-shadow: 1px 2px 10px grey;
@@ -192,8 +237,8 @@ footer{
 .Contact{
     margin-top: 50px;
     display: flex;
+    margin-bottom: 7%;
     justify-content: center;
-    padding-bottom: 8%;
     gap: 220px;
 }
 .lets{
@@ -224,4 +269,56 @@ input{
 ::placeholder{
     color:  rgb(77, 37, 255);
     text-align:center;
+}
+.FEATURED img{
+    border-radius: 10px;
+    width: 520px;
+    height: 300px;
+}
+.FEATURED button{
+          background-color: rgb(0, 27, 115);
+    border-radius: 8px;
+    color: white ;
+    border: none;
+    margin-left: 20px;
+    padding: 10px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 13px;
+transition: 0.4s ease-in-out !important;
+}
+
+.FEATURED button:hover{
+    background-color: rgb(0, 52, 222);
+}
+.cards img{
+   width: 350px;
+   height: 200px;
+   border-radius: 10px;
+}
+.news {
+    margin: 50px;
+    gap: 120px;
+    display: flex;
+    margin-bottom: 7%;
+}
+.cards {
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 20px;
+}
+.cards button{
+           background-color: rgb(0, 27, 115);
+    border-radius: 8px;
+    color: white ;
+    border: none;
+    margin-left: 20px;
+    padding: 10px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 13px;
+transition: 0.4s ease-in-out !important;
+}
+.cards button:hover{
+        background-color: rgb(0, 52, 221);
 }
